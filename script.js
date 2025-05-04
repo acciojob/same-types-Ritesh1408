@@ -3,10 +3,10 @@ function isSameType(value1, value2) {
   let b=typeof (toString(value2));
 	
 	if ( a === b) {
-	    return true;
+	    return "true";
 	}
 	else{
-	    return false;
+	    return "false";
 	}	
 }
 
