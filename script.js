@@ -1,11 +1,13 @@
 function isSameType(value1, value2) {
-  // Check if both values are NaN
-  if (Number.isNaN(Number(value1)) && Number.isNaN(Number(value2))) {
-    return true;
-  }
-
-  // Compare the types of both values
-  return typeof value1 === typeof value2;
+  let a=typeof(toString(value1));
+  let b=typeof (toString(value2));
+	
+	if ( a === b) {
+	    return true;
+	}
+	else{
+	    return false;
+	}	
 }
 
 // Do not change the code below
